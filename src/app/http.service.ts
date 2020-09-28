@@ -13,6 +13,6 @@ export class HttpService {
   }
 
   getCode() {
-    return this.http.get('http://api.worldbank.org/v2/country')
+    return this.http.get('./assets/countries+states.json')
   }
 }
